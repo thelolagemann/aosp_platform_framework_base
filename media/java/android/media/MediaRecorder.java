@@ -1096,4 +1096,13 @@ public class MediaRecorder
 
     @Override
     protected void finalize() { native_finalize(); }
+    
+    /* libmedia_jni.so registered methods
+     * gabry3795
+     */
+     private native void native_setVideoSource(int i);
+     private native void native_start();
+     private native void native_stop();
+     private native void pause();
+     private native void resume();
 }

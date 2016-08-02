@@ -1879,4 +1879,11 @@ public class MediaScanner
         mContext.getContentResolver().releaseProvider(mMediaProvider);
         native_finalize();
     }
+    
+    /* Compensation for stock libmedia
+     * 
+     * gabry3795
+     */
+    public native void addSkipCustomDirectory(String s, int i);
+    public native void clearSkipCustomDirectory();
 }
