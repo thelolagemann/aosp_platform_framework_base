@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2007 The Android Open Source Project
+ * Copyright (C) 2016 Gabriele Proietti Mattia <gabry.gabry@hotmail.it>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -1880,7 +1881,7 @@ public class MediaScanner
         native_finalize();
     }
     
-    /* Compensation for stock libmedia
+    /* Huawei libmedia_jni.so registered methods
      * 
      * gabry3795
      */

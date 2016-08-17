@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2007 The Android Open Source Project
+ * Copyright (C) 2016 Gabriele Proietti Mattia <gabry.gabry@hotmail.it>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -1097,7 +1098,8 @@ public class MediaRecorder
     @Override
     protected void finalize() { native_finalize(); }
     
-    /* libmedia_jni.so registered methods
+    /* Huawei libmedia_jni.so registered methods
+     * 
      * gabry3795
      */
      private native void native_setVideoSource(int i);
