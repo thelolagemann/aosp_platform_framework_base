@@ -72,4 +72,11 @@ public class MtpServer implements Runnable {
     private native final void native_send_device_property_changed(int property);
     private native final void native_add_storage(MtpStorage storage);
     private native final void native_remove_storage(int storageId);
+    
+    /* Huawei libmedia_jni.so registered methods
+     * 
+     * gabry3795 
+     **/
+    public native void native_send_all_storage_info_changed_if_needed();
+    public native void native_send_object_info_changed(int i);
 }
