@@ -13,6 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+ 
+ /**
+  * Credits for adaptations for openGapps https://github.com/CyanogenMod/android_frameworks_base/commit/8e7d8fac8b71e446f54e16101a73da7ead425c7b
+  */
 
 package com.android.server.pm;
 
